@@ -2,21 +2,29 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.FormMovie {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.FormMovie h1 {
+  text-align: center;
+}
+
+.FormMovie .form-data {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 5px 0;
 }
 
-.App-link {
-  color: #09d3ac;
+.FormMovie .form-data label {
+  display: inline-block;
+  width: 75px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.FormMovie .form-data input:not([type="submit"]) {
+  flex-grow: 1;
 }
